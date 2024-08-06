@@ -1,5 +1,3 @@
-import "@txikijs/types"
-
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 

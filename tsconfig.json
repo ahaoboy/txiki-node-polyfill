@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
-    "outDir": ".//dist",
+    "outDir": "./dist",
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext", "ES2022"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+      "ES2022"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -20,12 +25,15 @@
     "declarationMap": false,
     "sourceMap": false,
     "declaration": true,
+    "typeRoots": [
+      "node_modules/@txikijs/types"
+    ]
   },
-  "include": ["./src"],
-  "exclude": ["**/test", "**/dist"],
-  "typeRoots": [
-    "node_modules/@txikijs/types",
-    "node_modules/@types"
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "**/test",
+    "**/dist"
   ]
 }
-

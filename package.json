@@ -1,6 +1,6 @@
 {
   "name": "txiki-node-polyfill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "txiki-node-polyfill",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -13,10 +13,8 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.4",
-    "@txikijs/types": "^24.6.0"
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "@txikijs/types": "^24.6.0"
   }
 }
