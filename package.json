@@ -1,0 +1,22 @@
+{
+  "name": "txiki-node-polyfill",
+  "version": "0.1.0",
+  "description": "txiki-node-polyfill",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@txikijs/types": "^24.6.0"
+  },
+  "peerDependencies": {
+    "@txikijs/types": "^24.6.0"
+  }
+}
